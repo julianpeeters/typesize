@@ -5,7 +5,7 @@ A typeclass that provides the number of inhabitants of common types.
  - libarary for Scala 3 (JS, JVM, and Native platforms)
  
 ```scala
-"com.julianpeeters" %% "typesize" % "0.0.0"
+"com.julianpeeters" %% "typesize" % "0.1.0"
 ```
 
 ### Description:
