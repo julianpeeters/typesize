@@ -2,10 +2,10 @@
 A typeclass that provides the number of inhabitants of common types.
 
 ### Add the dependency:
- - libarary for Scala 3 (JS, JVM, and Native platforms)
+ - libarary for Scala @SCALA@ (JS, JVM, and Native platforms)
  
 ```scala
-"com.julianpeeters" %% "typesize" % "0.1.0"
+"com.julianpeeters" %% "typesize" % "@VERSION@"
 ```
 
 ### Description:
@@ -22,11 +22,10 @@ types, calculated by the following operations:
 
 ### Example:
 
-```scala
+```scala mdoc
 import typesize.{Cardinality, SizeOf, given}
 
 val c: Cardinality = summon[SizeOf[Option[Boolean]]].size
-// c: Cardinality = Finite(i = 3)
 ```
 
 ### Supported types:
