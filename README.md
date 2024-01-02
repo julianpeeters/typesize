@@ -1,2 +1,2 @@
 # typesize
-Typeclass the cardinalities of common types
+A typeclass that provides the cardinalities of common types.
